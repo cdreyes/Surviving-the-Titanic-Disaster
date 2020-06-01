@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Predicting the Odds of Surviving the Titanic Disaster
+Data Understanding
+The data is acquired from Kaggle's "Titanic: Machine Learning from Disaster"
 
-You can use the [editor on GitHub](https://github.com/cdreyes/myPortfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+VARIABLE DESCRIPTIONS:
+survived: Survival (0 = No; 1 = Yes)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
 
-### Markdown
+name: Name
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+sex: Sex
 
-```markdown
-Syntax highlighted code block
+age: Age
 
-# Header 1
-## Header 2
-### Header 3
+sibsp: Number of Siblings/Spouses Aboard
 
-- Bulleted
-- List
+parch: Number of Parents/Children Aboard
 
-1. Numbered
-2. List
+ticket: Ticket Number
 
-**Bold** and _Italic_ and `Code` text
+fare: Passenger Fare
 
-[Link](url) and ![Image](src)
-```
+cabin: Cabin
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
-### Jekyll Themes
+SPECIAL NOTES:
+Pclass is a proxy for socio-economic status (SES) 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cdreyes/myPortfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Age is in Years; Fractional if Age less than One (1) If the Age is Estimated, it is in the form xx.5
 
-### Support or Contact
+With respect to the family relation variables (i.e. SibSp and Parch) some relations were ignored. The following are the definitions used for SibSp and Parch.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Sibling: Brother, Sister, Stepbrother, or Stepsister of Passenger Aboard Titanic
+Spouse: Husband or Wife of Passenger Aboard Titanic (Mistresses and Fiances Ignored)
+Parent: Mother or Father of Passenger Aboard Titanic
+Child: Son, Daughter, Stepson, or Stepdaughter of Passenger Aboard Titanic
+Other family relatives excluded from this study include cousins, nephews/nieces, aunts/uncles, and in-laws. Some children travelled only with a nanny, therefore parch=0 for them. As well, some travelled with very close friends or neighbors in a village, however, the definitions do not support such relations.
