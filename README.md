@@ -1,5 +1,7 @@
 # Predicting the Odds of Surviving the Titanic Disaster
 
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
+
 ## Data Understanding
 
 The data is acquired from Kaggle's "Titanic: Machine Learning from Disaster"
