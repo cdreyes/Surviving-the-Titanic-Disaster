@@ -4,7 +4,8 @@
 
 The data is acquired from Kaggle's "Titanic: Machine Learning from Disaster"
 
-## Variable Descriptions:
+
+## Variable Descriptions
 
 survived: Survival (0 = No; 1 = Yes)
 
@@ -28,7 +29,8 @@ cabin: Cabin
 
 embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
-SPECIAL NOTES:
+
+## Special Notes
 Pclass is a proxy for socio-economic status (SES) 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower
 
 Age is in Years; Fractional if Age less than One (1) If the Age is Estimated, it is in the form xx.5
