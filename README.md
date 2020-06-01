@@ -1,7 +1,9 @@
 # Predicting the Odds of Surviving the Titanic Disaster
 
-<span style="color:red">some **This is Red Bold.** text</span>
-
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
 ## Data Understanding
 
 The data is acquired from Kaggle's "Titanic: Machine Learning from Disaster"
