@@ -1,8 +1,11 @@
-## Predicting the Odds of Surviving the Titanic Disaster
-Data Understanding
+# Predicting the Odds of Surviving the Titanic Disaster
+
+## Data Understanding
+
 The data is acquired from Kaggle's "Titanic: Machine Learning from Disaster"
 
-VARIABLE DESCRIPTIONS:
+### Variable Descriptions:
+
 survived: Survival (0 = No; 1 = Yes)
 
 pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
