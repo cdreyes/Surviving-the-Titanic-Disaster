@@ -1,4 +1,4 @@
-# NOTE:  If you are unable to view the Jupyter notebook here on Github, please follow this link (https://nbviewer.jupyter.org/) and paste this URL: https://github.com/cdreyes/Surviving-the-Titanic-Disaster
+# NOTE:  If you are unable to view the Jupyter notebook here in Github, please follow this link (https://nbviewer.jupyter.org/) and paste this URL: https://github.com/cdreyes/Surviving-the-Titanic-Disaster
 
 # Predicting the Odds of Surviving the Titanic Disaster
 
